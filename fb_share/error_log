@@ -1,0 +1,96 @@
+[29-May-2018 18:13:52 UTC] PHP Catchable fatal error:  Object of class Facebook\Helpers\FacebookRedirectLoginHelper could not be converted to string in /home1/ofovsemy/public_html/FBPost_/app.php on line 4
+[29-May-2018 18:14:13 UTC] PHP Catchable fatal error:  Object of class Facebook\Helpers\FacebookRedirectLoginHelper could not be converted to string in /home1/ofovsemy/public_html/FBPost_/app.php on line 4
+[29-May-2018 18:14:27 UTC] PHP Catchable fatal error:  Object of class Facebook\Helpers\FacebookRedirectLoginHelper could not be converted to string in /home1/ofovsemy/public_html/FBPost_/app.php on line 4
+[29-May-2018 18:14:35 UTC] PHP Catchable fatal error:  Object of class Facebook\Helpers\FacebookRedirectLoginHelper could not be converted to string in /home1/ofovsemy/public_html/FBPost_/app.php on line 4
+[29-May-2018 18:15:35 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/ofovsemy/public_html/FBPost_/app.php on line 5
+[29-May-2018 18:16:48 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/ofovsemy/public_html/FBPost_/app.php on line 5
+[29-May-2018 18:17:32 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/ofovsemy/public_html/FBPost_/app.php on line 7
+[29-May-2018 21:31:03 UTC] PHP Warning:  require(fbsdk/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:31:03 UTC] PHP Warning:  require(fbsdk/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:31:03 UTC] PHP Fatal error:  require(): Failed opening required 'fbsdk/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:33:11 UTC] PHP Warning:  require(fbsdk/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:33:11 UTC] PHP Warning:  require(fbsdk/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:33:11 UTC] PHP Fatal error:  require(): Failed opening required 'fbsdk/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:33:12 UTC] PHP Warning:  require(fbsdk/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:33:12 UTC] PHP Warning:  require(fbsdk/src/Facebook/autoload.php): failed to open stream: No such file or directory in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:33:12 UTC] PHP Fatal error:  require(): Failed opening required 'fbsdk/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/ofovsemy/public_html/main.php on line 3
+[29-May-2018 21:34:52 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 21:37:01 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 21:37:27 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 21:38:37 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 21:54:34 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 21:54:54 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 21:57:38 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 21:57:52 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 21:58:42 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
+[29-May-2018 22:01:44 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthorizationException: (#200) Requires either publish_actions permission, or manage_pages and publish_pages as an admin with sufficient administrative permission in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php:128
+Stack trace:
+#0 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home1/ofovsemy/public_html/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home1/ofovsemy/public_html/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 403, Array)
+#4 /home1/ofovsemy/public_html/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home1/ofovsemy/public_html/Facebook/Facebook.php in /home1/ofovsemy/public_html/Facebook/Exceptions/FacebookResponseException.php on line 128
